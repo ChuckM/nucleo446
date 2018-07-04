@@ -37,7 +37,7 @@ individual examples for a specific board. At this writing I am not sure how many
 apps will be in this repository but one I know that will be there is `blink`
 which helps show off the next layer.
 
-##Individual Applications##
+## Individual Applications
 
 An individual application directory (like `blink`) will have at least two files,
 one called `Makefile` and one which is the C source file that contains the
@@ -59,7 +59,7 @@ this particular chip), and the last line invokes the `Makefile.include` file
 from the top directory. That file will then include `rules.mk` and build all the
 files you need to load `blink.elf` onto your board and debug it.
 
-##Using multiple object files##
+## Using multiple object files
 
 Sometimes you will have some code that is common to all of the applications you
 are running that you will want to use. We have an example of such code in this
