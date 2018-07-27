@@ -16,16 +16,16 @@
 static const struct rcc_clock_scale cs = {
 	.pllr = 2,
 	.pllm = 4,
-	.plln = 168,
+	.plln = 180,
 	.pllp = 2,
 	.power_save = 1,
 	.flash_config = FLASH_ACR_DCEN | FLASH_ACR_ICEN | FLASH_ACR_LATENCY_5WS,
 	.hpre = RCC_CFGR_HPRE_DIV_NONE,
 	.ppre1 = RCC_CFGR_PPRE_DIV_4,
 	.ppre2 = RCC_CFGR_PPRE_DIV_2,
-	.ahb_frequency = 168000000,
-	.apb1_frequency = 42000000,
-	.apb2_frequency = 84000000
+	.ahb_frequency = 180000000,
+	.apb1_frequency = 45000000,
+	.apb2_frequency = 90000000
 };
 
 static volatile uint32_t __systick_millis;
